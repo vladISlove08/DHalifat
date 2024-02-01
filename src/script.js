@@ -1,3 +1,3 @@
 function fuckyou() {
-    alert("Fuck you slut")
+    alert("Fuck you slutt")
 };
