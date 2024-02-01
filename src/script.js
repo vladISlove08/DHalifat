@@ -1,4 +1,5 @@
 function fuckyou() {
-    alert("Fuck you slutt")
+    setTimeout(2000);
+    alert("Fuck you slutt");
 };
 
