@@ -13,6 +13,8 @@ function doSomething() {
     setTimeout(() => {  doSomething(); console.log("succes2"); }, 2000);
     
   };
+
   
+
 
 
