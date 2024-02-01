@@ -9,6 +9,6 @@ function doSomething() {
   } else {
     // `DOMContentLoaded` has already fired
     doSomething();
-  }
+  };
 
 
