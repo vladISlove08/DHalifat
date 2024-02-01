@@ -6,11 +6,11 @@ function doSomething() {
   
   if (document.readyState === "loading") {
     // Loading hasn't finished yet
-    document.addEventListener("DOMContentLoaded", doSomething);
+    document.addEventListener("DOMContentLoaded");
   } else {
     // `DOMContentLoaded` has already fired
     doSomething();
   };
 
-  
+
 
