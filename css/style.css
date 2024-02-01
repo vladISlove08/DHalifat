@@ -1,3 +1,36 @@
 :root {
     background-image: url(/DHalifat/img/caniuse-bg-dark.png);
 }
+
+
+
+
+
+.button {
+    background-color: rgb(37,32,24);
+    color: rgb(217,150,46);
+    padding: 5px;
+    text-align: center;
+    
+    
+}
+
+.button:hover {
+    background-color: rgb(37,32,24);
+    color: #f3bf3a;
+    padding: 5px;
+    box-shadow: 5px 3px 5px rgb(217,150,46);
+    text-align: center;
+}
+
+.h1 {
+    text-align: center;
+    
+    color: white;
+    font-family: 'Sixtyfour', sans-serif;
+}
+
+.button-parant {
+    text-align: center;
+    margin-top: 50px;
+}
