@@ -5,10 +5,12 @@ function doSomething() {
   
   if (document.readyState === "loading") {
     // Loading hasn't finished yet
-    document.addEventListener("DOMContentLoaded", doSomething);
+    setTimeout(() => {  document.addEventListener("DOMContentLoaded", doSomething); console.log("succes1"); }, 2000);
+    
   } else {
     // `DOMContentLoaded` has already fired
-    doSomething();
+    setTimeout(() => {  doSomething(); console.log("succes2"); }, 2000);
+    
   };
 
 
